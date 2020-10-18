@@ -1,0 +1,222 @@
+
+
+
+@-webkit-keyframes gun_one {
+
+  0% {opacity: 50%;
+    margin-top: 10px;
+     }
+  50% {opacity: 100%;
+    margin-top: 40px;
+       }
+  100% {opacity: 50%;
+    margin-top: 10px;
+    }
+}
+
+@-webkit-keyframes gun_two {
+
+   0% {opacity: 50%;
+    margin-top: 10px;
+     }
+  50% {opacity: 100%;
+    margin-top: 40px;
+       }
+  100% {opacity: 50%;
+    margin-top: 10px;
+    }
+}
+
+@-webkit-keyframes hit_you_with_that {
+  0% {opacity: 0%;}
+
+  100% {opacity: 100%;}
+}
+
+@-webkit-keyframes ddu_one {
+  0% {opacity: 0%;}
+
+  100% {opacity: 100%;}
+}
+
+@-webkit-keyframes du_one {
+  0% {opacity: 0%;}
+
+  100% {opacity: 100%;}
+}
+
+@-webkit-keyframes ddu_two {
+  0% {opacity: 0%;}
+
+  100% {opacity: 100%;}
+}
+
+@-webkit-keyframes du_two {
+  0% {opacity: 0%;}
+
+  100% {opacity: 100%;}
+}
+
+@-webkit-keyframes du {
+
+  0% {opacity: 100%;}
+
+  25% {opacity: 0%}
+
+  50% {opacity: 50%}
+
+  100% {opacity: 100%;}
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100%;
+  opacity: 100%;
+  animation-name: du;
+  animation-duration: 1.6s;
+  animation-delay: 5s;
+  -webkit-animation-fill-mode:both;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  background-color: #EC9BAC;
+}
+
+  .gun_1 {
+  position: absolute;
+  top: -40px;
+  left: 1100px;
+  width: 850px;
+  opacity: 0%;
+  animation-name: gun_one;
+  animation-duration: 2.2s;
+  animation-delay: 5.2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+
+  
+
+}
+
+ .gun_2 {
+  position: absolute;
+  top: 188px;
+  left: 0px;
+  width: 762px;
+  animation-name: gun_two;
+  opacity: 0%;
+  animation-duration: 2.6s;
+  animation-delay: 5.2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+ .hit {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  animation-name: hit_you_with_that;
+  animation-delay: 2s;
+  animation-duration: 0.3s;
+  -webkit-animation-fill-mode:both
+}
+
+.you {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  animation-name: hit_you_with_that;
+  animation-delay: 2.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-fill-mode:both
+}
+
+ .with {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  animation-name: hit_you_with_that;
+  animation-delay: 2.6s;
+  animation-duration: 0.3s;
+  -webkit-animation-fill-mode:both
+}
+
+.that {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  animation-name: hit_you_with_that;
+  animation-delay: 2.9s;
+  animation-duration: 0.3s;
+  -webkit-animation-fill-mode:both
+}
+
+
+ .ddu_1 {
+  position: absolute;
+  top: -221px;
+  left: 189px;
+  width: 1234px;
+  opacity: 0%;
+  animation-name: ddu_one;
+  animation-delay: 3.7s;
+  animation-duration: 0.15s;
+  -webkit-animation-fill-mode:both
+
+
+}
+
+ .ddu_2 {
+  position: absolute;
+  top: 431px;
+  left: 380px;
+  width: 1100px;
+  opacity: 0%;
+  animation-name: ddu_two;
+  animation-delay: 4.5s;
+  animation-duration: 0.15s;
+  -webkit-animation-fill-mode:both
+}
+
+
+.du_1 {
+  position: absolute;
+  top: 84px;
+  left: 1000px;
+  width: 980px;
+  opacity: 0%;
+  animation-name: du_one;
+  animation-delay: 3.85s;
+  animation-duration: 0.15s;
+  -webkit-animation-fill-mode:both
+}
+
+.du_2 {
+  position: absolute;
+  top: 626px;
+  left: 1316px;
+  width: 480px;
+  opacity: 0%;
+  animation-name: du_two;
+  animation-delay: 4.65s;
+  animation-duration: 0.15s;
+  -webkit-animation-fill-mode:both
+}
+
+.foot {
+  position: absolute;
+  left: 0px;
+  top: 810px;
+  width: 1920px;
+  padding: 0px;
+}
